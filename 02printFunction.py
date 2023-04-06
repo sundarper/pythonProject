@@ -16,3 +16,5 @@ print (varString,varString2,varString3)
 print (type(varString3))
 print (type(varString2))
 
+print (type(varString))
+
