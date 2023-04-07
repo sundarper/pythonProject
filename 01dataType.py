@@ -41,8 +41,19 @@ print(type(varDict))
 print(varDict.keys())
 print(varDict.values())
 
-import datetime
+
 varDate = datetime.datetime.now()
 print(varDate)
-print(datetime.date)
+print("date type =",datetime.date)
+print(varDate.date())
+
+a = 150
+b = 50
+varBool = (10 == 10)
+if (a>b):
+    print("A is greater then B")
+else:
+    print("B is greater then A")
+    print("Bool : ",varBool)
+    print(type(varBool))
 
