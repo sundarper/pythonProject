@@ -56,4 +56,9 @@ else:
     print("B is greater then A")
     print("Bool : ",varBool)
     print(type(varBool))
+print(bool({}))
+
+x=200.0
+print(isinstance(x, int))
+
 
