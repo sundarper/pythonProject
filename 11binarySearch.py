@@ -8,6 +8,7 @@ while True:
     guess = guess+1
     mid = ((low + high) // 2)
     print("Mid ", mid)
+    print(low,high)
     if num > mid:
         low = mid
     elif num < mid:
