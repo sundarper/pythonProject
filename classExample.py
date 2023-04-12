@@ -7,8 +7,8 @@ class person:
     def myFunction(self):
         print("My name is :", self.name)
         print("My Age is :", self.age)
-#
-# p1 = person("Sundar", "40")
-#
-# p1.myFunction()
+
+p1 = person("Sundar Rajan", "40")
+
+p1.myFunction()
 
