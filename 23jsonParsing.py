@@ -1,9 +1,8 @@
 import json
 
 #x ='{ "name":"John", "age":30, "city":"New York"}'
-with open('./resources/test.son','r') as f:
+with open('resources/test.json', 'r') as f:
     x = f.read()
-
 
 y = json.loads(x)
 print(y)
