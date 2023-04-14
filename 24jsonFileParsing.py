@@ -1,6 +1,7 @@
 import json
 
 with open('./resources/json_test/personal_info.json', 'r') as user_file:
+#with open('//s3-eu-west-1.amazonaws.com/csparkdata/ol_cdump.json', 'r') as user_file:
     #parsed_json = json.load(user_file)
     file_contents = user_file.read()
 
@@ -17,10 +18,9 @@ print("response_code = ", parsed_json["response_code"])
 print("train_number = ", parsed_json["train_number"])
 print("position = ", parsed_json["position"])
 print(type(("route = ", parsed_json["route"][0])))
-route = ("route = ", parsed_json["route"][0])
-route_disct = route[1]
+route = ("route = ", parsed_json["route"][0]["has_arrived"])
 
-print(route_disct("no0"))
+print(route)
 print(type(route_disct))
 
 
